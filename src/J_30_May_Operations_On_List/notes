@@ -1,0 +1,34 @@
+Operations on List
+----------------------------
+
+    1. Creating a new list
+
+            ArrayList list1 = new ArrayList();
+            LinkedList list1 = new LinkedList();
+
+            List list = new ArrayList();
+            List list = new LinkedList();
+
+            List<Integer> numslist = new ArrayList<>()
+            List<String> namesList = new LinkedList<>()
+
+    2. Basic operations: adding, retrieving, updating, removing elements
+
+        a. adding the element on the list
+                boolean add(Object obj)
+                void add(int index, Object obj)
+                boolean addAll(Collection c)
+
+        b. Retrieve the element of a list
+                Object get(int index)
+                    - returns the object at the specified index
+
+        c. Updating elements
+                Object set(int index, Object element)
+
+             - the set(index, element) method is used to replace the element at the specified index
+                by the specified element.
+
+        d. removing the elements from a list
+                    boolean remove(int index)
+                    boolean remove(Object obj)
